@@ -5,10 +5,24 @@
     box-sizing: border-box;
 }
 
+.heading {
+    padding-top: 50px;
+    color: #003a2ed3;
+    background: #0953685b;
+    text-align: center;
+    padding-bottom: 0;
+}
+
+.subheading {
+    color: #003a2e77;
+    background: #0953685b;
+    text-align: center;
+}
+
 .container{
     width:100%;
     height: 100vh;
-    background: #e3f9ff;
+    background: #0953685b;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -48,5 +62,11 @@ box-shadow: none;
 }
 
 form input.equal{
-width:145px;
+    background: #33ffda85;
+    color:black;
+    width:145px;
+}
+
+form input.operator{
+    color: #33ffdace;
 }
